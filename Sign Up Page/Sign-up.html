@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reminisce | Login</title>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Reminisce | Create Account</title>
+    <link rel="stylesheet" type="text/css" href="/Sign Up Page/sign-up.css">
     <link rel="stylesheet" type="text/css" href="/Templates/nav-footer-template.css">
     <!-- importing social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,9 +17,9 @@
         <div id="navbar">
             <a href="#">Home</a>
             <a>|</a> <!-- use span instead of anchor elements -->           	
-            <a href="#">Login</a>
+            <a href="/Login Page/Login.html">Login</a>
             <a>|</a>
-            <a href="/Sign Up Page/Sign-up.html">Sign Up</a>  
+            <a href="#">Sign Up</a>  
         </div>
         
         <!-- Small reminisce icon in center of navbar -->
@@ -28,32 +28,25 @@
         </div>
     </nav>
 
+    <!-- login form container -->
+    <div class="register-container">
+        <h2>Create Account</h2>
+	    <form>
+	        <input type="text" id="name" name="name" placeholder="First Name"><br>
+	        <input type="text" id="surname" name="surname" placeholder="Last Name"><br>
+            <!-- add authenticator for email -->
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
+            <input type="password" id="confirm-pwd" name="confirm-pwd" placeholder="Confirm Password"><br>
+
+	        <input type="submit" value="LOGIN" id="Register-Btn">
+	    </form>
+	</div>
+
     <!-- Adding the background image -->
 	<div class="background-image">
         <img src="/Images/bg-image.jpg" alt="Background Image">
     </div>
-
-	<!-- login form container -->
-    <div class="login-container">
-	    <form>
-	    	<img id="default-icon" src="\Images/profile-icon-3.png" alt="Default profile icon">
-
-	        <input type="text" id="username" name="username" placeholder="Username"><br>
-
-	        <input type="password" id="password" name="password" placeholder="Password"><br>
-
-	        <div class="remember-me-container">
-	            <input type="checkbox" id="remember-me" name="remember-me">
-	            <label for="remember-me" class="other-options">Remember me</label>
-	        </div>
-
-	        <input type="submit" value="LOGIN" id="LoginBtn">
-
-	        <a href="#" class="other-options">Forgot password?</a><br>
-	        <br>
-	        <a href="#" class="other-options">Don't have an account? Sign up here</a>
-	    </form>
-	</div>
 
     <!-- Footer content -->
     <footer>
@@ -69,7 +62,5 @@
             <a href="#" class="fa fa-pinterest"></a>
         </div>
     </footer>
-
-
-</body>
+    </body>
 </html>

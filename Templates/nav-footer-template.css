@@ -1,0 +1,131 @@
+body {
+    background-color: #88898a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*Navigation bar*/
+#title {
+  color: #7BA3EE;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+#center-icon {
+  display: flex;
+  padding-top: 0.5%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav {
+    background-color: #272631;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-left: 50px;
+}
+
+#navbar {
+    display: flex;
+    margin-right: 50px;
+}
+
+/*navbar text*/
+#navbar a {
+    color: #7BA3EE;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbar a:hover {
+  color: #ffffff;
+}
+
+/*FOOTER CONTENT*/
+
+footer {
+    background-color: #272631;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+}
+
+/* Style for social media icons */
+.fa {
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.social-icons {
+    display: flex;
+    padding-right: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook icon */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+/* instagram icon */
+.fa-instagram {
+  background: #c72867;
+  color: white;
+  border-radius: 50%;
+}
+
+/* whatsapp icon */
+.fa-whatsapp {
+  background: #12b037;
+  color: white;
+  border-radius: 50%;
+}
+
+/* twitter icon */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+/* pinterest icon */
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  border-radius: 50%;
+}
