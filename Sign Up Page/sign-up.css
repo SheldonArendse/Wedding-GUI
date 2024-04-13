@@ -57,6 +57,7 @@ input[type="submit"] {
     font-size: 14px;
     margin: 0 auto;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 #Register-Btn:hover {

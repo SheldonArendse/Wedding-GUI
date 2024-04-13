@@ -13,16 +13,18 @@ body {
   color: #7BA3EE;
   font-size: 24px;
   margin-left: 10px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 35px;
 }
 
 #center-icon {
   display: flex;
-  padding-top: 0.5%;
+  padding-top: 0.8%;
   justify-content: center;
   align-items: center;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 51%;
   transform: translateX(-50%);
 }
 
@@ -56,7 +58,6 @@ nav {
 }
 
 /*FOOTER CONTENT*/
-
 footer {
     background-color: #272631;
     color: white;
